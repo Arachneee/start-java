@@ -29,7 +29,21 @@ public class chapter3 {
 		double shortpi = (int)(pi * 1000 + 0.5) / 1000.0;
 		System.out.println(shortpi);
 		
-		System.out.printf("%b%n","ABC" == "ABC");
+		System.out.printf("%b%n", 'A' >= 'B');
+		
+		String str = new String("abcde");
+		String str1 = "abc";
+		System.out.printf("%b%n",str.substring(0,3).equals(str1));
+		
+		int x1 = 4, y1 = 2;
+		
+		System.out.printf("%s%n", toBinaryString(x1<<3+1 | y1));
+		
+	}
+	static String toBinaryString(int x) {
+		String zero = "00000000000000000000000000000000";
+		String tmp = zero+ Integer.toBinaryString(x);
+		return tmp.substring(tmp.length()-32);
 	}
 
 }

@@ -33,10 +33,26 @@ public class chapter4 {
 		for (char c:chartostring.toCharArray()) {
 			System.out.println(c);
 		}
+		
 		char[] arr_char = chartostring.toCharArray();
 		
 		for(int j = 0; j<=arr_char.length;j++) {
 			System.out.println(arr_char[j]);
+		}
+		System.out.println("---------------------");
+		
+		Loop1 : for (int k=2;k<=9;k++) {
+			for(int h=1;h<=9;h++) {
+				if(h==5) {
+					break Loop1;
+					break;
+					continue Loop1;
+					continue;
+					
+				}
+			}
+				
+					
 		}
 	}
 

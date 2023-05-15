@@ -39,6 +39,10 @@ public class chapter3 {
 		
 		System.out.printf("%s%n", toBinaryString(x1<<3+1 | y1));
 		
+		int result;
+		System.out.println(result = (x1<y1) ? x1*10 : x1*5);
+		System.out.println(result+1);
+		
 	}
 	static String toBinaryString(int x) {
 		String zero = "00000000000000000000000000000000";

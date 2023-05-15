@@ -28,6 +28,8 @@ public class chapter3 {
 		double pi = 3.141592;
 		double shortpi = (int)(pi * 1000 + 0.5) / 1000.0;
 		System.out.println(shortpi);
+		
+		System.out.printf("%b%n","ABC" == "ABC");
 	}
 
 }

@@ -39,7 +39,7 @@ public class chapter4 {
 		for(int j = 0; j<=arr_char.length;j++) {
 			System.out.println(arr_char[j]);
 		}
-		System.out.println("---------------------");
+		System.out.println("---------------------" + Card.ps);
 
 		}
 	}

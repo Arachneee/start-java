@@ -21,6 +21,7 @@ class Card {
     static int width = 100;
     static int height = 250;
 
+    public static int ps = 10;
 }
 class chapter6 {
     public static void main (String[] args){
@@ -48,5 +49,14 @@ class chapter6 {
 
         System.out.println("c1 = " + c1.kind + " of " + c1.number + " W :" + c1.width + " H " + c1.height);
         System.out.println("c2 = " + c2.kind + " of " + c2.number + " W :" + c2.width + " H " + c2.height);
+
+        c1.width = 50;
+        c2.height = 100;
+        System.out.println("change");
+        System.out.println("c1 = " + c1.kind + " of " + c1.number + " W :" + c1.width + " H " + c1.height);
+        System.out.println("c2 = " + c2.kind + " of " + c2.number + " W :" + c2.width + " H " + c2.height);
+        System.out.println(c1.ps);
+        //Card.ps = 50;
+        System.out.println(c2.ps);
     }
 }

@@ -18,6 +18,6 @@ public class chapter2 {
 		fMax += 1;
 		
 		System.out.println(fMax);
-		
+		System.out.println(Card.width);
 	}
 }

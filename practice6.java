@@ -22,7 +22,7 @@ class SutdaCard {
     }
     String info(){
         if (this.isKwang){
-            return "1K";
+            return Integer.toString(this.num) + "K";
         } else {
             return Integer.toString(this.num);
         }

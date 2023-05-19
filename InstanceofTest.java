@@ -8,6 +8,7 @@ public class InstanceofTest {
             fe2 = (Car)fe;
         }
 
+
         System.out.println(fe2.getClass().getName());
     }
 

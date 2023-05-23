@@ -15,8 +15,8 @@ public class Exercise10_6 {
 
 
 
-        System.out.println("birth day="+sdf.format(birth));
-        System.out.println("today    ="+sdf.format(now));
+        System.out.println("birth day="+sdf.format(birth.getTime()));
+        System.out.println("today    ="+sdf.format(now.getTime()));
         System.out.println(diff+" days");
 
 

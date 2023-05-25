@@ -1,12 +1,12 @@
 package chapter11;
 
 import java.util.*;
-class Student implements Comparable{
+class Student1 implements Comparable{
     String name;
     int ban;
     int no;
     int kor, eng, math;
-    Student(String name, int ban, int no, int kor, int eng, int math) {
+    Student1(String name, int ban, int no, int kor, int eng, int math) {
         this.name = name;
         this.ban = ban;
         this.no = no;
@@ -47,11 +47,11 @@ class Student implements Comparable{
 class Exercise11_5 {
     public static void main(String[] args) {
         ArrayList list = new ArrayList();
-        list.add(new Student("김자바",1,1,100,100,100));
-        list.add(new Student("남궁성",1,2,90,70,80));
-        list.add(new Student("김자바",2,3,80,80,90));
-        list.add(new Student("이자바",1,4,70,90,70));
-        list.add(new Student("김자바",3,5,60,100,80));
+        list.add(new Student1("김자바",1,1,100,100,100));
+        list.add(new Student1("남궁성",1,2,90,70,80));
+        list.add(new Student1("김자바",2,3,80,80,90));
+        list.add(new Student1("이자바",1,4,70,90,70));
+        list.add(new Student1("김자바",3,5,60,100,80));
         Collections.sort(list);
         Iterator it = list.iterator();
         while(it.hasNext())

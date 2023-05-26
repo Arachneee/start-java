@@ -1,3 +1,5 @@
+package chapter1_5;
+
 public class InstanceofTest {
 
     public static void main(String[] args){

@@ -1,3 +1,5 @@
+package chapter1_5;
+
 public class Timetest{
     public static void main(String args[]){
         Time t = new Time(30);

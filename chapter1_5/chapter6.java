@@ -1,3 +1,5 @@
+package chapter1_5;
+
 class Tv {
     String color;
     boolean power;
